@@ -8,7 +8,7 @@ const Planes = () => {
       <section className="contenedor">
         <article className="nuestros-planes">
           <h1>Nuestros Planes</h1>
-          <p id="parf-planes">
+          <p className="parf-planes">
             Planeados pensando en la tranquilidad de tu peludito
           </p>
           <div className="container-table">
@@ -21,9 +21,12 @@ const Planes = () => {
               <div className="column-yellow">
                 <p>Popular</p>
               </div>
-              <p className='p-estandar'>Estándar</p>
+              <p className="p-estandar">Estándar</p>
               <p classNme="price-estandar">$28.000</p>
               <p className="mensual-e">Mensual</p>
+              <div className="column-yellow">
+                <p>Popular</p>
+                </div>
             </div>
             <div className="table-plane-columnPremium">
               <p className="p-premium">Premium</p>
