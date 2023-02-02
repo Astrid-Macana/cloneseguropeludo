@@ -57,7 +57,7 @@ export const NavContainer = styled.header`
       }        
     }
       
-    @media(min-width:768px){
+    @media(min-width:950px){
         position: initial;
         margin: 0;
          a{
@@ -65,6 +65,7 @@ export const NavContainer = styled.header`
             font-size: 1rem; 
             display: inline;
         }
+        
     }
   }
   .links.active{
@@ -91,7 +92,7 @@ export const NavContainer = styled.header`
   }
     
   .burger-button{
-    @media(min-width:768px) {
+    @media(min-width:950px) {
         display: none;
     }    
 }
